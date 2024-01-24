@@ -1,0 +1,6 @@
+
+<div class="container">
+    <p>parentcomp works!</p>
+    <h2>Parent Counter {{parentCounter}}</h2>
+    <app-child [name]="'Vijay'" [age]="55" [Counter]="100" (customEvent)="parentMethod($event)"></app-child>
+</div>

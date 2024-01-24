@@ -1,0 +1,27 @@
+<p>ng-switch works!</p>
+
+<!-- <div [ngSwitch]="num">
+    <div *ngSwitchCase="1">one</div>
+    <div *ngSwitchCase="2">two</div>
+    <div *ngSwitchCase="3">three</div>
+
+    <div *ngSwitchDefault="">choice wrong</div>
+
+</div> -->
+<div>
+    <select [(ngModel)]="num">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>
+
+    <div [ngSwitch]="num">
+        <div *ngSwitchCase="1"><h2>one</h2></div>
+        <div *ngSwitchCase="2"><h2>Two</h2></div>
+        <div *ngSwitchCase="3"><h2>Three</h2></div>
+        <div *ngSwitchCase="4"><h2>Four</h2></div>
+
+
+    </div>
+</div>

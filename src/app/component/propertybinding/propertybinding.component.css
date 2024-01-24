@@ -1,0 +1,12 @@
+.container{
+    width: 50%;
+    margin: auto;
+    background-color: antiquewhite;
+
+}
+
+.container.button
+{
+    width: 50%;
+    margin: auto;
+}

@@ -1,0 +1,14 @@
+h1{
+    width: 50px;
+    margin: auto;
+}
+
+.container{
+    font-size: xx-large;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    background-color:powderblue;
+    border: solid 1px;
+    font-weight: bold;
+}

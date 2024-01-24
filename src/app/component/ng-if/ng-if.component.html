@@ -1,0 +1,29 @@
+<!-- <p>ng-if works!</p>
+<div>
+    <h3  *ngIf="active">show if active</h3>
+</div> -->
+
+<!-- <div>
+    <h3  *ngIf="count>2">count is greater than 2</h3>
+</div> -->
+
+<!-- 
+learning ngIf and else examplse
+
+<div *ngIf="count>2; else elseblock">
+    <h3>count is greater than 2</h3>
+</div>
+
+<ng-template #elseblock>
+    <h3>count is not greater than 2 i.e.{{count}}</h3>
+</ng-template>  -->
+
+<!-- greater of 2 nos -->
+
+<div *ngIf="num1>num2 ; else elseblock">
+    <h3> {{num1}} is greater than {{num2}}</h3>
+</div>
+
+<ng-template #elseblock>
+    <h3>{{num1}} is not greater than {{num2}} </h3>
+</ng-template>

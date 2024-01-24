@@ -1,0 +1,32 @@
+<p>ng-class works!</p>
+
+<!-- 1st way -->
+
+<div [ngClass]="'first'">
+    <p>use ngClass</p>
+</div>
+
+<!-- 2nd way using array -->
+<div [ngClass]="['first','second']">
+    <p>use ngClass</p>
+</div>
+
+<!-- 3rd way without array -->
+ <div [ngClass]="'first second'">
+    <p>use ngClass</p>
+</div>
+
+<!-- 4th way  -->
+
+<div [ngClass]={first:true,second:false}>
+    <p>use ngClass</p>
+</div>
+
+<!-- 5th way  ob comes from ts file-->
+
+<div [ngClass]=ob>
+    <p>use ngClass</p>
+</div>
+
+
+

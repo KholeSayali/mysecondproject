@@ -1,0 +1,40 @@
+<p>for directive</p>
+<!-- 
+<div *ngFor="let c of city">
+
+    <p>{{c}}</p>
+
+</div>
+
+<ol >
+    <li *ngFor="let c of city">{{c}}</li>
+
+</ol> -->
+
+<!-- <div *ngFor="let s of stu">
+
+<h3>{{s.name}}</h3>
+<h3>{{s.phone}}</h3>
+<h3>{{s.branch}}</h3>
+
+
+</div>
+ -->
+
+ <table border="1px">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Phone</th>
+            <th>Name</th>
+        </tr>
+
+    </thead>
+    <tbody>
+        <tr *ngFor="let s of stu">
+            <td>{{s.name}}</td>
+            <td>{{s.phone}}</td>
+            <td>{{s.branch}}</td>
+        </tr>
+    </tbody>
+</table>
